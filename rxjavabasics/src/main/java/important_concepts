@@ -1,0 +1,26 @@
+Subscribers are for huge amount of data, vs observables
+rx - push approach
+event driven development
+scalability
+fault tolerant
+responsive
+observable
+
+Observable Interface
+
+- OnNext
+- OnComplete
+- OnError
+
+Observables
+
+- Cold vs Hot
+
+Operators
+
+- Suppressing
+- Collection
+- Reducing
+- Error
+- Action
+- Transformative

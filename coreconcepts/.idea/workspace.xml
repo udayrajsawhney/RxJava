@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/operators/Operators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="105" column="31" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
+            <state relative-caret-position="590">
+              <caret line="203" column="46" lean-forward="true" selection-start-line="203" selection-start-column="46" selection-end-line="203" selection-end-column="46" />
               <folding>
                 <element signature="method#filterOp#0;class#Operators#0" />
                 <element signature="method#takeOp#0;class#Operators#0" />
@@ -38,6 +38,22 @@
                 <element signature="method#defaultIfEmptyOp#0;class#Operators#0" />
                 <element signature="method#delayOp#0;class#Operators#0" />
                 <element signature="method#sortedOp#0;class#Operators#0" />
+                <element signature="method#scanOp#0;class#Operators#0" />
+                <element signature="method#repeatOp#1;class#Operators#0" />
+                <element signature="method#reduceOp#0;class#Operators#0" />
+                <element signature="method#reduceOp#1;class#Operators#0" />
+                <element signature="method#allOp#1;class#Operators#0" />
+                <element signature="method#anyOp#1;class#Operators#0" />
+                <element signature="method#countOp#1;class#Operators#0" />
+                <element signature="method#containsOp#1;class#Operators#0" />
+                <element signature="method#toListOp#1;class#Operators#0" />
+                <element signature="method#toSortedListOp#1;class#Operators#0" />
+                <element signature="method#toMultiMapOp#0;class#Operators#0" />
+                <element signature="method#collectOp#0;class#Operators#0" />
+                <element signature="method#onErrorReturnItemOp#0;class#Operators#0" />
+                <element signature="method#onErrorReturnItemOp#1;class#Operators#0" />
+                <element signature="method#onErrorResumeNextOp#1;class#Operators#0" />
+                <element signature="method#actionOp#0;class#Operators#0" />
                 <element signature="method#Sleep#0;class#Operators#0" />
               </folding>
             </state>
@@ -91,7 +107,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550854840016" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550858690894" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -139,12 +155,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550685203052</updated>
       <workItem from="1550685206951" duration="485000" />
-      <workItem from="1550853892572" duration="608000" />
+      <workItem from="1550853892572" duration="2710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1093000" />
+    <option name="totallyTimeSpent" value="3195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -160,7 +176,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -255,8 +271,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/operators/Operators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="105" column="31" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
+        <state relative-caret-position="590">
+          <caret line="203" column="46" lean-forward="true" selection-start-line="203" selection-start-column="46" selection-end-line="203" selection-end-column="46" />
           <folding>
             <element signature="method#filterOp#0;class#Operators#0" />
             <element signature="method#takeOp#0;class#Operators#0" />
@@ -272,6 +288,22 @@
             <element signature="method#defaultIfEmptyOp#0;class#Operators#0" />
             <element signature="method#delayOp#0;class#Operators#0" />
             <element signature="method#sortedOp#0;class#Operators#0" />
+            <element signature="method#scanOp#0;class#Operators#0" />
+            <element signature="method#repeatOp#1;class#Operators#0" />
+            <element signature="method#reduceOp#0;class#Operators#0" />
+            <element signature="method#reduceOp#1;class#Operators#0" />
+            <element signature="method#allOp#1;class#Operators#0" />
+            <element signature="method#anyOp#1;class#Operators#0" />
+            <element signature="method#countOp#1;class#Operators#0" />
+            <element signature="method#containsOp#1;class#Operators#0" />
+            <element signature="method#toListOp#1;class#Operators#0" />
+            <element signature="method#toSortedListOp#1;class#Operators#0" />
+            <element signature="method#toMultiMapOp#0;class#Operators#0" />
+            <element signature="method#collectOp#0;class#Operators#0" />
+            <element signature="method#onErrorReturnItemOp#0;class#Operators#0" />
+            <element signature="method#onErrorReturnItemOp#1;class#Operators#0" />
+            <element signature="method#onErrorResumeNextOp#1;class#Operators#0" />
+            <element signature="method#actionOp#0;class#Operators#0" />
             <element signature="method#Sleep#0;class#Operators#0" />
           </folding>
         </state>

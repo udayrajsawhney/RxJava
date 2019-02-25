@@ -7,6 +7,7 @@
 package operators;
 
 import io.reactivex.Observable;
+import io.reactivex.observables.GroupedObservable;
 
 import java.util.HashSet;
 import java.util.concurrent.TimeUnit;
@@ -192,6 +193,53 @@ public class Operators {
 
     }
 
+    public void mergeOp(){
+        Observable<String> source1 = Observable.just("Alpha","beta");
+        Observable<String> source2 = Observable.just("Alpha2","beta2");
+        Observable<String> source3 = Observable.just("Alpha3","beta3");
+        Observable<String> source4 = Observable.just("Alpha4","beta4");
+        Observable<String> source5 = Observable.just("Alpha5","beta5");
+        Observable.merge(source1,source2,source3).subscribe(System.out::println);
+        //Observable.mergeArray(source1,source2,source3,source4,source5).subscribe(System.out::println);
+        //source1.mergeWith(source2).subscribe(System.out::println);
+    }
+
+    public void flatMapOp(){
+        Observable<String> source1 = Observable.just("Alpha","beta","gamma","delta");
+        source1.flatMap(s->Observable.fromArray(s.split(""))).subscribe(System.out::println);
+    }
+
+    public void concatOp(){
+        Observable<String> source1 = Observable.just("Alpha","beta");
+        Observable<String> source2 = Observable.just("Alpha2","beta2");
+        Observable.concat(source1,source2).subscribe(System.out::println);
+        source1.concatWith(source2).subscribe(System.out::println);
+    }
+
+    public void zipOp(){
+        Observable<Long> source1 = Observable.interval(1,TimeUnit.SECONDS);
+        Observable<Long> source2 = Observable.interval(300,TimeUnit.MILLISECONDS);
+        Observable.ambArray(source1,source2).subscribe(System.out::println);
+        Sleep(5000);
+       //Observable.zip(source1,source2,(e1,e2)->e1+"-"+e2).subscribe(System.out::println);
+    }
+
+    public void combineLatestOp(){
+        Observable<Long> source1 = Observable.interval(1,TimeUnit.SECONDS);
+        Observable<Long> source2 = Observable.interval(300,TimeUnit.MILLISECONDS);
+        Observable.combineLatest(source1,source2,(e1,e2)->e1+"-"+e2).subscribe(System.out::println);
+        Sleep(5000);
+       // source1.withLatestFrom(source2,(e1,e2)->e1+"-"+e2).subscribe(System.out::println);
+    }
+
+    public void groupByOp(){
+        Observable<String> colors = Observable.just("black","yellow","orange","brown","purple","green","blue","grey","coral","corn");
+        Observable<GroupedObservable<Character,String>> groups = colors.groupBy(s->s.charAt(0));
+        groups.flatMapSingle(g->g.toList()).subscribe(System.out::println);
+        groups.flatMapSingle(g->g.reduce("",(x,y)->x.equals("")? y : x+","+y).map(s->g.getKey()+":"+s))
+                .subscribe(System.out::println);
+    }
+
     public static void Sleep(long time) {
         try {
             Thread.sleep(time);
@@ -202,6 +250,6 @@ public class Operators {
 
     public static void main(String[] args) {
         Operators operators = new Operators();
-        //operators.{Operator Name}Op();
+        operators.groupByOp();
     }
 }

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="592b1a43-b454-490e-a642-1b662cdd61a5" name="Default Changelist" comment="" />
+    <list default="true" id="592b1a43-b454-490e-a642-1b662cdd61a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/operators/Operators.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/operators/Operators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/operators/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/operators/Operators.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -21,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/operators/Operators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="203" column="46" lean-forward="true" selection-start-line="203" selection-start-column="46" selection-end-line="203" selection-end-column="46" />
+            <state relative-caret-position="666">
+              <caret line="255" lean-forward="true" selection-start-line="255" selection-end-line="255" />
               <folding>
                 <element signature="method#filterOp#0;class#Operators#0" />
                 <element signature="method#takeOp#0;class#Operators#0" />
@@ -38,22 +43,28 @@
                 <element signature="method#defaultIfEmptyOp#0;class#Operators#0" />
                 <element signature="method#delayOp#0;class#Operators#0" />
                 <element signature="method#sortedOp#0;class#Operators#0" />
+                <element signature="method#repeatOp#0;class#Operators#0" />
                 <element signature="method#scanOp#0;class#Operators#0" />
-                <element signature="method#repeatOp#1;class#Operators#0" />
                 <element signature="method#reduceOp#0;class#Operators#0" />
-                <element signature="method#reduceOp#1;class#Operators#0" />
-                <element signature="method#allOp#1;class#Operators#0" />
-                <element signature="method#anyOp#1;class#Operators#0" />
-                <element signature="method#countOp#1;class#Operators#0" />
-                <element signature="method#containsOp#1;class#Operators#0" />
-                <element signature="method#toListOp#1;class#Operators#0" />
-                <element signature="method#toSortedListOp#1;class#Operators#0" />
+                <element signature="method#allOp#0;class#Operators#0" />
+                <element signature="method#anyOp#0;class#Operators#0" />
+                <element signature="method#countOp#0;class#Operators#0" />
+                <element signature="method#containsOp#0;class#Operators#0" />
+                <element signature="method#toListOp#0;class#Operators#0" />
+                <element signature="method#toSortedListOp#0;class#Operators#0" />
+                <element signature="method#toMapOp#0;class#Operators#0" />
                 <element signature="method#toMultiMapOp#0;class#Operators#0" />
                 <element signature="method#collectOp#0;class#Operators#0" />
                 <element signature="method#onErrorReturnItemOp#0;class#Operators#0" />
-                <element signature="method#onErrorReturnItemOp#1;class#Operators#0" />
-                <element signature="method#onErrorResumeNextOp#1;class#Operators#0" />
+                <element signature="method#onErrorResumeNextOp#0;class#Operators#0" />
+                <element signature="method#retryOp#0;class#Operators#0" />
                 <element signature="method#actionOp#0;class#Operators#0" />
+                <element signature="method#mergeOp#0;class#Operators#0" />
+                <element signature="method#mergeOp#1;class#Operators#0" />
+                <element signature="method#mergeOp#1;class#Operators#0" />
+                <element signature="method#concatOp#1;class#Operators#0" />
+                <element signature="method#zipOp#1;class#Operators#0" />
+                <element signature="method#groupByOp#0;class#Operators#0" />
                 <element signature="method#Sleep#0;class#Operators#0" />
               </folding>
             </state>
@@ -68,6 +79,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -84,33 +98,53 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coreconcepts" type="462c0819:PsiDirectoryNode" />
+              <item name="coreconcepts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coreconcepts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coreconcepts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coreconcepts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550858690894" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551083584832" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -156,24 +190,25 @@
       <updated>1550685203052</updated>
       <workItem from="1550685206951" duration="485000" />
       <workItem from="1550853892572" duration="2710000" />
+      <workItem from="1551080901826" duration="340000" />
+      <workItem from="1551081274090" duration="1580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3195000" />
+    <option name="totallyTimeSpent" value="5115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
@@ -187,6 +222,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -271,8 +307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/operators/Operators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="203" column="46" lean-forward="true" selection-start-line="203" selection-start-column="46" selection-end-line="203" selection-end-column="46" />
+        <state relative-caret-position="666">
+          <caret line="255" lean-forward="true" selection-start-line="255" selection-end-line="255" />
           <folding>
             <element signature="method#filterOp#0;class#Operators#0" />
             <element signature="method#takeOp#0;class#Operators#0" />
@@ -288,22 +324,28 @@
             <element signature="method#defaultIfEmptyOp#0;class#Operators#0" />
             <element signature="method#delayOp#0;class#Operators#0" />
             <element signature="method#sortedOp#0;class#Operators#0" />
+            <element signature="method#repeatOp#0;class#Operators#0" />
             <element signature="method#scanOp#0;class#Operators#0" />
-            <element signature="method#repeatOp#1;class#Operators#0" />
             <element signature="method#reduceOp#0;class#Operators#0" />
-            <element signature="method#reduceOp#1;class#Operators#0" />
-            <element signature="method#allOp#1;class#Operators#0" />
-            <element signature="method#anyOp#1;class#Operators#0" />
-            <element signature="method#countOp#1;class#Operators#0" />
-            <element signature="method#containsOp#1;class#Operators#0" />
-            <element signature="method#toListOp#1;class#Operators#0" />
-            <element signature="method#toSortedListOp#1;class#Operators#0" />
+            <element signature="method#allOp#0;class#Operators#0" />
+            <element signature="method#anyOp#0;class#Operators#0" />
+            <element signature="method#countOp#0;class#Operators#0" />
+            <element signature="method#containsOp#0;class#Operators#0" />
+            <element signature="method#toListOp#0;class#Operators#0" />
+            <element signature="method#toSortedListOp#0;class#Operators#0" />
+            <element signature="method#toMapOp#0;class#Operators#0" />
             <element signature="method#toMultiMapOp#0;class#Operators#0" />
             <element signature="method#collectOp#0;class#Operators#0" />
             <element signature="method#onErrorReturnItemOp#0;class#Operators#0" />
-            <element signature="method#onErrorReturnItemOp#1;class#Operators#0" />
-            <element signature="method#onErrorResumeNextOp#1;class#Operators#0" />
+            <element signature="method#onErrorResumeNextOp#0;class#Operators#0" />
+            <element signature="method#retryOp#0;class#Operators#0" />
             <element signature="method#actionOp#0;class#Operators#0" />
+            <element signature="method#mergeOp#0;class#Operators#0" />
+            <element signature="method#mergeOp#1;class#Operators#0" />
+            <element signature="method#mergeOp#1;class#Operators#0" />
+            <element signature="method#concatOp#1;class#Operators#0" />
+            <element signature="method#zipOp#1;class#Operators#0" />
+            <element signature="method#groupByOp#0;class#Operators#0" />
             <element signature="method#Sleep#0;class#Operators#0" />
           </folding>
         </state>

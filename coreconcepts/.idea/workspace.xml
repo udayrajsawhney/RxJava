@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592b1a43-b454-490e-a642-1b662cdd61a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/operators/Operators.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/operators/Operators.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/operators/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/operators/Operators.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/operators/Operators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="255" lean-forward="true" selection-start-line="255" selection-end-line="255" />
+            <state relative-caret-position="495">
+              <caret line="255" column="74" selection-start-line="255" selection-start-column="74" selection-end-line="255" selection-end-column="74" />
               <folding>
                 <element signature="method#filterOp#0;class#Operators#0" />
                 <element signature="method#takeOp#0;class#Operators#0" />
@@ -60,12 +57,17 @@
                 <element signature="method#retryOp#0;class#Operators#0" />
                 <element signature="method#actionOp#0;class#Operators#0" />
                 <element signature="method#mergeOp#0;class#Operators#0" />
-                <element signature="method#mergeOp#1;class#Operators#0" />
-                <element signature="method#mergeOp#1;class#Operators#0" />
-                <element signature="method#concatOp#1;class#Operators#0" />
-                <element signature="method#zipOp#1;class#Operators#0" />
+                <element signature="e#7394#7490#0" />
+                <element signature="method#flatMapOp#0;class#Operators#0" />
+                <element signature="method#concatOp#0;class#Operators#0" />
+                <element signature="method#zipOp#0;class#Operators#0" />
+                <element signature="method#combineLatestOp#0;class#Operators#0" />
                 <element signature="method#groupByOp#0;class#Operators#0" />
+                <element signature="method#MultiCastOp#0;class#Operators#0" />
                 <element signature="method#Sleep#0;class#Operators#0" />
+                <element signature="e#9450#9493#0" />
+                <element signature="e#9525#9569#0" />
+                <element signature="method#main#0;class#Operators#0" />
               </folding>
             </state>
           </provider>
@@ -192,17 +194,18 @@
       <workItem from="1550853892572" duration="2710000" />
       <workItem from="1551080901826" duration="340000" />
       <workItem from="1551081274090" duration="1580000" />
+      <workItem from="1551084580989" duration="447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5115000" />
+    <option name="totallyTimeSpent" value="5562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -307,8 +310,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/operators/Operators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="255" lean-forward="true" selection-start-line="255" selection-end-line="255" />
+        <state relative-caret-position="495">
+          <caret line="255" column="74" selection-start-line="255" selection-start-column="74" selection-end-line="255" selection-end-column="74" />
           <folding>
             <element signature="method#filterOp#0;class#Operators#0" />
             <element signature="method#takeOp#0;class#Operators#0" />
@@ -341,12 +344,17 @@
             <element signature="method#retryOp#0;class#Operators#0" />
             <element signature="method#actionOp#0;class#Operators#0" />
             <element signature="method#mergeOp#0;class#Operators#0" />
-            <element signature="method#mergeOp#1;class#Operators#0" />
-            <element signature="method#mergeOp#1;class#Operators#0" />
-            <element signature="method#concatOp#1;class#Operators#0" />
-            <element signature="method#zipOp#1;class#Operators#0" />
+            <element signature="e#7394#7490#0" />
+            <element signature="method#flatMapOp#0;class#Operators#0" />
+            <element signature="method#concatOp#0;class#Operators#0" />
+            <element signature="method#zipOp#0;class#Operators#0" />
+            <element signature="method#combineLatestOp#0;class#Operators#0" />
             <element signature="method#groupByOp#0;class#Operators#0" />
+            <element signature="method#MultiCastOp#0;class#Operators#0" />
             <element signature="method#Sleep#0;class#Operators#0" />
+            <element signature="e#9450#9493#0" />
+            <element signature="e#9525#9569#0" />
+            <element signature="method#main#0;class#Operators#0" />
           </folding>
         </state>
       </provider>

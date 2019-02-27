@@ -1,13 +1,19 @@
 package schedulers;
 
 
+import io.reactivex.BackpressureOverflowStrategy;
+import io.reactivex.BackpressureStrategy;
+import io.reactivex.Flowable;
 import io.reactivex.Observable;
 import io.reactivex.schedulers.Schedulers;
+import org.reactivestreams.Subscriber;
+import org.reactivestreams.Subscription;
 
 
 import java.time.LocalTime;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class Scheduler {
 
@@ -41,6 +47,48 @@ public class Scheduler {
         Sleep(3000);
     }
 
+    public void flowableOP(){
+        Flowable.range(0,50000000).doOnNext(s->System.out.println("emission number "+s+" is coming"))
+                .subscribeOn(Schedulers.computation())
+                .subscribe(new Subscriber<Integer>() {
+                    @Override
+                    public void onSubscribe(Subscription s) {
+                        s.request(Long.MAX_VALUE);
+                    }
+
+                    @Override
+                    public void onNext(Integer integer) {
+                        Sleep(200);
+                        System.out.println(integer);
+                    }
+
+                    @Override
+                    public void onError(Throwable t) {
+
+                    }
+
+                    @Override
+                    public void onComplete() {
+
+                    }
+                });
+        Sleep(10000);
+    }
+
+    public void flowableCreateOP(){
+        Flowable<String> flowableSource  = Flowable.create(source->{
+           source.onNext("black");
+           source.onNext("white");
+        }, BackpressureStrategy.BUFFER);
+    }
+
+    public void backpressureOps(){
+        Flowable<Long> source = Flowable.interval(1, TimeUnit.SECONDS);
+        source.onBackpressureBuffer(10,()->System.out.println("overflow"), BackpressureOverflowStrategy.DROP_LATEST);
+        source.onBackpressureLatest();
+        source.onBackpressureDrop();
+    }
+
     public static void Sleep(long time) {
         try {
             Thread.sleep(time);
@@ -51,6 +99,6 @@ public class Scheduler {
 
     public static void main(String[] args) {
         Scheduler scheduler = new Scheduler();
-        scheduler.parellelSchedulersOp();
+        scheduler.flowableOP();
     }
 }

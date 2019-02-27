@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592b1a43-b454-490e-a642-1b662cdd61a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/schedulers/Scheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/operators/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/operators/Operators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schedulers/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schedulers/Scheduler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -22,67 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/operators/Operators.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="281" column="5" lean-forward="true" selection-start-line="270" selection-start-column="4" selection-end-line="281" selection-end-column="5" />
-              <folding>
-                <element signature="method#filterOp#0;class#Operators#0" />
-                <element signature="method#takeOp#0;class#Operators#0" />
-                <element signature="method#skipOp#0;class#Operators#0" />
-                <element signature="method#firstOp#0;class#Operators#0" />
-                <element signature="method#takeWhileOp#0;class#Operators#0" />
-                <element signature="method#skipWhileOp#0;class#Operators#0" />
-                <element signature="method#distinctOp#0;class#Operators#0" />
-                <element signature="method#elementAtOp#0;class#Operators#0" />
-                <element signature="method#mapOp#0;class#Operators#0" />
-                <element signature="method#castOp#0;class#Operators#0" />
-                <element signature="method#startsWithOp#0;class#Operators#0" />
-                <element signature="method#defaultIfEmptyOp#0;class#Operators#0" />
-                <element signature="method#delayOp#0;class#Operators#0" />
-                <element signature="method#sortedOp#0;class#Operators#0" />
-                <element signature="method#repeatOp#0;class#Operators#0" />
-                <element signature="method#scanOp#0;class#Operators#0" />
-                <element signature="method#reduceOp#0;class#Operators#0" />
-                <element signature="method#allOp#0;class#Operators#0" />
-                <element signature="method#anyOp#0;class#Operators#0" />
-                <element signature="method#countOp#0;class#Operators#0" />
-                <element signature="method#containsOp#0;class#Operators#0" />
-                <element signature="method#toListOp#0;class#Operators#0" />
-                <element signature="method#toSortedListOp#0;class#Operators#0" />
-                <element signature="method#toMapOp#0;class#Operators#0" />
-                <element signature="method#toMultiMapOp#0;class#Operators#0" />
-                <element signature="method#collectOp#0;class#Operators#0" />
-                <element signature="method#onErrorReturnItemOp#0;class#Operators#0" />
-                <element signature="method#onErrorResumeNextOp#0;class#Operators#0" />
-                <element signature="method#retryOp#0;class#Operators#0" />
-                <element signature="method#actionOp#0;class#Operators#0" />
-                <element signature="method#mergeOp#0;class#Operators#0" />
-                <element signature="method#flatMapOp#0;class#Operators#0" />
-                <element signature="method#concatOp#0;class#Operators#0" />
-                <element signature="method#zipOp#0;class#Operators#0" />
-                <element signature="method#combineLatestOp#0;class#Operators#0" />
-                <element signature="method#groupByOp#0;class#Operators#0" />
-                <element signature="method#MultiCastOp#0;class#Operators#0" />
-                <element signature="method#shareOp#0;class#Operators#0" />
-                <element signature="method#Sleep#0;class#Operators#0" />
-                <element signature="method#main#0;class#Operators#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/schedulers/Scheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+            <state relative-caret-position="494">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#schedulersOp#0;class#Schedulers#0" />
-                <element signature="method#schedulersOp#1;class#Scheduler#0" />
-                <element signature="method#Sleep#0;class#Schedulers#0" />
+                <element signature="method#schedulersOp#0;class#Scheduler#0" />
+                <element signature="method#customSchedulersOp#0;class#Scheduler#0" />
+                <element signature="method#parellelSchedulersOp#0;class#Scheduler#0" />
+                <element signature="method#flowableOP#0;class#Scheduler#0" />
+                <element signature="e#1986#1987#0" expanded="true" />
+                <element signature="e#2045#2046#0" expanded="true" />
+                <element signature="method#flowableCreateOP#0;class#Scheduler#0" />
+                <element signature="method#Sleep#0;class#Scheduler#0" />
               </folding>
             </state>
           </provider>
@@ -123,59 +75,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coreconcepts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coreconcepts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coreconcepts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coreconcepts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coreconcepts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="operators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coreconcepts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="schedulers" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551259565467" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551262502711" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -243,17 +151,18 @@
       <workItem from="1551081274090" duration="1580000" />
       <workItem from="1551084580989" duration="447000" />
       <workItem from="1551257882842" duration="1328000" />
+      <workItem from="1551259627095" duration="1321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6890000" />
+    <option name="totallyTimeSpent" value="8211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19170243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -262,7 +171,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,8 +267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/operators/Operators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="281" column="5" lean-forward="true" selection-start-line="270" selection-start-column="4" selection-end-line="281" selection-end-column="5" />
+        <state relative-caret-position="1729">
+          <caret line="281" column="5" selection-start-line="270" selection-start-column="4" selection-end-line="281" selection-end-column="5" />
           <folding>
             <element signature="method#filterOp#0;class#Operators#0" />
             <element signature="method#takeOp#0;class#Operators#0" />
@@ -407,13 +316,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/schedulers/Scheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+        <state relative-caret-position="494">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#schedulersOp#0;class#Schedulers#0" />
-            <element signature="method#schedulersOp#1;class#Scheduler#0" />
-            <element signature="method#Sleep#0;class#Schedulers#0" />
+            <element signature="method#schedulersOp#0;class#Scheduler#0" />
+            <element signature="method#customSchedulersOp#0;class#Scheduler#0" />
+            <element signature="method#parellelSchedulersOp#0;class#Scheduler#0" />
+            <element signature="method#flowableOP#0;class#Scheduler#0" />
+            <element signature="e#1986#1987#0" expanded="true" />
+            <element signature="e#2045#2046#0" expanded="true" />
+            <element signature="method#flowableCreateOP#0;class#Scheduler#0" />
+            <element signature="method#Sleep#0;class#Scheduler#0" />
           </folding>
         </state>
       </provider>

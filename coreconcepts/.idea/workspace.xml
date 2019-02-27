@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592b1a43-b454-490e-a642-1b662cdd61a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/alternatives/Alternative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transformativeoperators/Transformative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/important_concepts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/important_concepts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -40,16 +39,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/alternatives/Alternative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+            <state relative-caret-position="266">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#bufferOp#0;class#Alternative#0" />
                 <element signature="method#boundaryBasedbufferOp#0;class#Alternative#0" />
+                <element signature="method#boundaryBasedbufferOp#1;class#Alternative#0" />
+                <element signature="method#switchingOp#0;class#Alternative#0" />
                 <element signature="method#Sleep#0;class#Alternative#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/transformativeoperators/Transformative.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,6 +91,8 @@
         <option value="$PROJECT_DIR$/src/main/java/schedulers/Scheduler.java" />
         <option value="$PROJECT_DIR$/src/main/java/important_concepts" />
         <option value="$PROJECT_DIR$/src/main/java/alternatives/Alternative.java" />
+        <option value="$PROJECT_DIR$/src/main/java/transformativeoperators/Transform.java" />
+        <option value="$PROJECT_DIR$/src/main/java/transformativeoperators/Transformative.java" />
       </list>
     </option>
   </component>
@@ -122,7 +137,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="schedulers" type="462c0819:PsiDirectoryNode" />
+              <item name="transformativeoperators" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -135,7 +150,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551288915635" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551290285207" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -153,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Alternative">
+  <component name="RunManager" selected="Application.Transformative">
     <configuration name="Alternative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="alternatives.Alternative" />
       <module name="Rxjava.coreconcepts.main" />
@@ -193,8 +208,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Transformative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="transformativeoperators.Transformative" />
+      <module name="Rxjava.coreconcepts.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="transformativeoperators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Transformative" />
         <item itemvalue="Application.Alternative" />
         <item itemvalue="Application.Scheduler" />
         <item itemvalue="Application.Operators" />
@@ -218,18 +247,18 @@
       <workItem from="1551084580989" duration="447000" />
       <workItem from="1551257882842" duration="1328000" />
       <workItem from="1551259627095" duration="1569000" />
-      <workItem from="1551286630387" duration="1392000" />
+      <workItem from="1551286630387" duration="2038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9851000" />
+    <option name="totallyTimeSpent" value="10497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19742489" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19742489" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -399,13 +428,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alternatives/Alternative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+        <state relative-caret-position="266">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#bufferOp#0;class#Alternative#0" />
             <element signature="method#boundaryBasedbufferOp#0;class#Alternative#0" />
+            <element signature="method#boundaryBasedbufferOp#1;class#Alternative#0" />
+            <element signature="method#switchingOp#0;class#Alternative#0" />
             <element signature="method#Sleep#0;class#Alternative#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/transformativeoperators/Transformative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

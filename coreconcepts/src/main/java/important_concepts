@@ -24,3 +24,10 @@ Operators
 - Error
 - Action
 - Transformative
+
+Alternate to flowables
+
+- Buffer
+- Switching
+- Throttling
+- Windowing

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592b1a43-b454-490e-a642-1b662cdd61a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/schedulers/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schedulers/Scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alternatives/Alternative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/important_concepts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/important_concepts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -20,21 +22,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/schedulers/Scheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="323">
+              <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#schedulersOp#0;class#Scheduler#0" />
                 <element signature="method#customSchedulersOp#0;class#Scheduler#0" />
                 <element signature="method#parellelSchedulersOp#0;class#Scheduler#0" />
                 <element signature="method#flowableOP#0;class#Scheduler#0" />
-                <element signature="e#1986#1987#0" expanded="true" />
-                <element signature="e#2045#2046#0" expanded="true" />
                 <element signature="method#flowableCreateOP#0;class#Scheduler#0" />
+                <element signature="method#backpressureOps#0;class#Scheduler#0" />
                 <element signature="method#Sleep#0;class#Scheduler#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alternatives/Alternative.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#bufferOp#0;class#Alternative#0" />
+                <element signature="method#boundaryBasedbufferOp#0;class#Alternative#0" />
+                <element signature="method#Sleep#0;class#Alternative#0" />
               </folding>
             </state>
           </provider>
@@ -58,10 +73,11 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/observables/basics.java" />
         <option value="$PROJECT_DIR$/src/main/java/observables/Observables.java" />
-        <option value="$PROJECT_DIR$/src/main/java/important_concepts" />
         <option value="$PROJECT_DIR$/src/main/java/operators/Operators.java" />
         <option value="$PROJECT_DIR$/src/main/java/schedulers/Schedulers.java" />
         <option value="$PROJECT_DIR$/src/main/java/schedulers/Scheduler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/important_concepts" />
+        <option value="$PROJECT_DIR$/src/main/java/alternatives/Alternative.java" />
       </list>
     </option>
   </component>
@@ -75,7 +91,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coreconcepts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coreconcepts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coreconcepts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coreconcepts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coreconcepts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coreconcepts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="schedulers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -83,7 +135,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551262502711" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551288915635" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -101,7 +153,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Scheduler">
+  <component name="RunManager" selected="Application.Alternative">
+    <configuration name="Alternative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alternatives.Alternative" />
+      <module name="Rxjava.coreconcepts.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alternatives.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="operators.Operators" />
       <module name="Rxjava.coreconcepts.main" />
@@ -130,6 +195,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Alternative" />
         <item itemvalue="Application.Scheduler" />
         <item itemvalue="Application.Operators" />
       </list>
@@ -151,18 +217,19 @@
       <workItem from="1551081274090" duration="1580000" />
       <workItem from="1551084580989" duration="447000" />
       <workItem from="1551257882842" duration="1328000" />
-      <workItem from="1551259627095" duration="1321000" />
+      <workItem from="1551259627095" duration="1569000" />
+      <workItem from="1551286630387" duration="1392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8211000" />
+    <option name="totallyTimeSpent" value="9851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19742489" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -170,7 +237,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -258,13 +325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/important_concepts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/operators/Operators.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1729">
@@ -314,20 +374,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/important_concepts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/schedulers/Scheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="323">
+          <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#schedulersOp#0;class#Scheduler#0" />
             <element signature="method#customSchedulersOp#0;class#Scheduler#0" />
             <element signature="method#parellelSchedulersOp#0;class#Scheduler#0" />
             <element signature="method#flowableOP#0;class#Scheduler#0" />
-            <element signature="e#1986#1987#0" expanded="true" />
-            <element signature="e#2045#2046#0" expanded="true" />
             <element signature="method#flowableCreateOP#0;class#Scheduler#0" />
+            <element signature="method#backpressureOps#0;class#Scheduler#0" />
             <element signature="method#Sleep#0;class#Scheduler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alternatives/Alternative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#bufferOp#0;class#Alternative#0" />
+            <element signature="method#boundaryBasedbufferOp#0;class#Alternative#0" />
+            <element signature="method#Sleep#0;class#Alternative#0" />
           </folding>
         </state>
       </provider>

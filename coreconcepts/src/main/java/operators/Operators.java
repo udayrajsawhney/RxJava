@@ -261,6 +261,13 @@ public class Operators {
         Sleep(3000);
     }
 
+    public void BlockingOp() {
+        Observable.interval(1,TimeUnit.SECONDS).take(10)
+                .blockingSubscribe(System.out::println,Throwable::printStackTrace,()->System.out.println("observer 1 done"));
+        Observable.interval(1200,TimeUnit.MICROSECONDS).take(5)
+                .blockingSubscribe(System.out::println,Throwable::printStackTrace,()->System.out.println("observer 2 done"));
+    }
+
     public static void Sleep(long time) {
         try {
             Thread.sleep(time);

@@ -34,3 +34,56 @@ You can think of the Observable class as a “push” equivalent to Iterable, wh
 	- Handling disposal in the Observer
 	- Composite Disposable
 
+- Operators
+	- Filter
+	- take and skip
+	- takeWhile and SkipWhile
+	- distinct and elementAt
+	- map
+	- cast and startswith
+	- DefaultIfEmpty
+	- Delay
+	- Sorted
+	- Repeated
+	- Reduce
+	- toList
+	- collect
+	- Error
+	- Retry
+	- Action
+
+- Combining Operators
+	- merge and mergewith
+	- flatmap
+	- concat and concatwith
+	- Ambigious and zipping
+	- combine latest
+	- groupBy
+
+- Multicasting Operators and Autoconnect
+- Sharing
+- Replying and caching
+
+- Parellelization and Concurrency
+	- Blocking Subscription
+	- Schedulers
+	- Computation Scheduler
+	- ObserveOn ExecutorService
+	- Parellelization with FlatMap
+
+- Flowables
+	- Backpressure
+	- Backpresuure Strategies
+	- OnBackPressure
+
+- Alternatives to Flowables
+	- Buffering
+	- Switching
+	- Boundary Based Buffering
+	- Windowing
+	- Throttling
+
+- Transformers
+	- Observable Transformer
+	- Custom Transformer
+

@@ -4,6 +4,8 @@ Learn Fundamental concepts of [Rxjava](https://github.com/ReactiveX/RxJava) by e
 
 **[Reactive X](http://reactivex.io/intro.html)**
 
+<img src="https://github.com/udayrajsawhney/RxJava/blob/master/coreconcepts/1.png" width="800" height="200"/>
+
 ReactiveX is a library for composing asynchronous and event-based programs by using observable sequences.
 It extends the observer pattern to support sequences of data and/or events and adds operators that allow you to compose sequences together declaratively while abstracting away concerns about things like low-level threading, synchronization, thread-safety, concurrent data structures, and non-blocking I/O.
 

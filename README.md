@@ -1,4 +1,4 @@
-# RxJava
+# RxJava (Learn by Examples)
 Learn Fundamental concepts of [Rxjava](https://github.com/ReactiveX/RxJava) by examples.
 
 
